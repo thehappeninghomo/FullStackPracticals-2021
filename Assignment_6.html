@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+        .box{
+            width: 300px;
+            height: 400px;
+            text-align: justify;
+            overflow: hidden;
+            margin: 20px 15px;
+            padding: 20px;
+            margin-right: 25px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #container{
+            display: inline-flex;
+        }
+        .box img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .mybutton{
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .mybutton:hover{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 style="color: white; text-align: center; font-size: 38px;">PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+
+    <div id="container">
+    <div class="box" id="box1">
+        <div class="image-heading">
+            <img src="./html.png" alt="HTML Image">
+        </div>
+        <h4 style="text-align: center;">Introduction to HTML</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo facilis deserunt non, iusto enim incidunt vel mollitia quisquam, labore molestias similique qui numquam a porro perspiciatis obcaecati nobis, adipisci rem. Laborum unde hic corporis?</p>
+        <div class="image" style="text-align: center;">
+            <a href="./Page1.html" class="mybutton">Read More</a>
+        </div>
+    </div>
+
+    <div class="box" id="box2">
+        <div class="image-heading">
+            <img src="./css.png" alt="CSS Image">
+        </div>
+        <h4 style="text-align: center;">Introduction to CSS</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo facilis deserunt non, iusto enim incidunt vel mollitia quisquam, labore molestias similique qui numquam a porro perspiciatis obcaecati nobis, adipisci rem. Laborum unde hic corporis?.</p>
+        <div class="image" style="text-align: center;">
+            <a href="./Page2.html" class="mybutton">Read More</a>
+        </div>
+    </div>
+
+    <div class="box" id="box3">
+        <div class="image-heading">
+            <img src="./jquery.png" alt="JavaScript Image">
+        </div>
+        <h4 style="text-align: center;">Introduction to JavaScript</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo facilis deserunt non, iusto enim incidunt vel mollitia quisquam, labore molestias similique qui numquam a porro perspiciatis obcaecati nobis, adipisci rem. Laborum unde hic corporis?</p>
+        <div class="image" style="text-align: center;">
+            <a href="./Page3.html" class="mybutton">Read More</a>
+        </div>
+    </div>
+
+    <div class="box" id="box4">
+        <div>
+            <img src="./bootstrap.jpg" alt="Bootstrap Image">
+        </div>
+        <h4 style="text-align: center;">Introduction to Bootstrap</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo facilis deserunt non, iusto enim incidunt vel mollitia quisquam, labore molestias similique qui numquam a porro perspiciatis obcaecati nobis, adipisci rem. Laborum unde hic corporis?</p>
+        <div class="image" style="text-align: center;">
+            <a href="./Page4.html" class="mybutton">Read More</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
