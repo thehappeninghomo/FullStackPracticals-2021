@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-7</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        }
+        .navbar {
+            margin: 10px;
+            background-color: gray;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            line-height: 10vh;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 10vh;
+        }
+        .banner {
+            margin: 10px;
+            background-color:blue;
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 90vh;
+            height: 90vh;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .article {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            color: white;
+            width: 50%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .art {
+            background-color: orangered;
+            line-height: 166px;
+        }
+        #art2 {
+            line-height: 146px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .main {
+            background-color:lawngreen;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+            font-size: 25px;
+            text-align: center;
+            line-height: 500px;
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: gold;
+        }
+        .s1{
+            display: flex;
+            margin: 10px 10px;
+            justify-content: space-around;
+        }
+        .s2{
+            display: flex;
+            margin: 10px 0px;
+            padding: 0px 10px;
+            height: 500px;
+        }
+        .s3{
+            display: flex;
+            margin: 10px 10px;
+            justify-content: space-around;
+        }
+        .square{
+            background-color: maroon;
+            height: 200px;
+            width: 200px;
+            background-color: maro;
+        }
+        footer{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin: 10px;
+            height: 10vh;
+            line-height: 10vh;
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar"><h1>Header</h1></nav>
+
+    <div class="banner"><h1>Banner</h1></div>
+
+    <h1>Section-1</h1>
+    <div class="s1">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <h1>Section-2</h1>
+    <div class="s2">
+        <div class="main">
+            <h2>Main Content</h2>
+        </div>
+        <div class="article">
+            <div class="art">
+                <h2>Article-1</h2>
+            </div>
+            <div class="art" id="art2">
+                <h2>Article-2</h2>
+            </div>
+            <div class="art">
+                <h2>Article-3</h2>
+            </div>
+        </div>
+    </div>
+
+    <h1>Section-3</h1>
+    <div class="s3">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <h1>Section-4</h1>
+    <footer class="s4"><h2>Footer</h2></footer>
+</body>
+</html>
