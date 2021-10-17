@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#btn1 {
+    background-color: yellow;
+    margin-right: 38px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#btn2 {
+    background-color: yellow;
+    display: inline;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#value {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 50px;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}

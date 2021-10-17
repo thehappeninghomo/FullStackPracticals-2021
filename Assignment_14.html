@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-14</title>
+    <link rel="stylesheet" href="Assignment_14.css">
+</head>
+
+<body>
+    <h1>COUNTER</h1>
+    <div id="container">
+        <button id="btn1">-</button>
+        <div id="value"></div>
+        <button id="btn2">+</button>
+    </div>
+
+    <script>
+        var a = 0;
+        var button1 = document.getElementById("btn1");
+        var number = document.getElementById("value");
+        number.innerHTML = a;
+        var button2 = document.getElementById("btn2");
+        btn1.disabled = true;
+        button1.onclick = function () {
+            a = a - 1;
+            number.innerHTML = a;
+            if (a == 0 || a < 0) {
+                button1.disabled = true;
+            }
+            else {
+                button1.disabled = false;
+            }
+        };
+        button2.onclick = function () {
+            a = a + 1;
+            number.innerHTML = a;
+            if (a == 0 || a < 0) {
+                button1.disabled = true;
+            }
+            else {
+                button1.disabled = false;
+            }
+        };
+    </script>
+</body>
+
+</html>
