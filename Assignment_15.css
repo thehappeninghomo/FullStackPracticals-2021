@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 30%;
+    height: 80vh;
+    margin: 50px auto;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(247, 234, 234);
+    /* border: 2px solid black; */
+    height: 9vh;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 9vh;
+}
+label{
+    font-size: 20px;
+}
+label, button{
+    display: block;
+}
+input{
+    border: 3px solid gray ;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.form-box div{
+    position: relative;
+}
+i{
+    position: absolute;
+    right: 5%;
+    top: 53%;
+    visibility: hidden;
+}
+.fa-circle-check{
+    color: green;
+}
+.fa-circle-exclamation{
+    color: red;
+}
+p{
+    color: red;
+}
