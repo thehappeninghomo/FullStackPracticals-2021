@@ -8,14 +8,12 @@ var ex = document.querySelectorAll(".fa-circle-exclamation");
 var note = document.querySelectorAll("p");
 
 sub.addEventListener("click", () => {
-    // note.style.color="red";
   if (checkuser()) {
     ch[0].style.visibility = "visible";
     user.style.border = "3px solid green";
   } else {
     ex[0].style.visibility = "visible";
     user.style.border = "3px solid red";
-    // user.innerHTML="User Name Invalid";
     note[0].innerHTML = "Enter username";
   }
 
